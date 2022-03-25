@@ -1,0 +1,241 @@
+@font-face{
+	font-family: FuenteNueva;
+	src: url(fonts/Arapey/Arapey-Italic.ttf);
+}
+
+.general{
+	background-image: url(img/bg.jpg);
+}
+
+.general__encabezado{
+	height          : 40px;
+	font-size       : 14px;
+	background-color: #2B4141;
+	color           : #ffffff;
+	text-align      : center;
+	padding-top     : 13px;
+}
+
+.general__encabezado__texto-1{
+	display: inline;
+}
+
+.general__encabezado__texto-2{
+	display: inline;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.general__titulo{
+	text-align: center;
+	background-image: url(img/bg-header.png);
+	background-position: bottom;
+	height: 300px;
+	padding-top:40px;
+}
+
+p{
+	display: inline;
+}
+
+.general__titulo__navega{
+	font-size: 150px;
+	color: #2B4141;
+	font-weight: bold;
+	margin-right: 20px;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.general__titulo__feliz{
+	font-size: 150px;
+	color: #F3EB15;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.general__titulo__conectado{
+	font-size: 23px;
+	color: #ffffff;
+}
+
+.general__titulo__actualiza{
+	font-size: 23px;
+	color: #ffffff;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.contenido{
+	text-align: center;
+}
+
+.contenido__google{
+	display: inline-block;
+	width: 16%;
+}
+
+.contenido__google>.contenido__version{
+	margin-top: 51px;
+}
+.contenido__mozilla{
+	display: inline-block;
+	width: 16%;
+	margin-left: 10px;
+}
+
+.contenido__safari{
+	display: inline-block;
+	width: 16%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.contenido__safari>.contenido__version{
+	margin-top: 33px;
+}
+
+.contenido__safari img{
+	margin-bottom: 8px;
+}
+
+.contenido__opera{
+	display: inline-block;
+	width: 16%;
+	margin-right: 10px;
+}
+.contenido__explore{
+	display: inline-block;
+	width: 16%;
+}
+
+.contenido img{
+	margin-top: 60px;
+	height: 140px;
+	margin-bottom: 23px;
+}
+
+
+.contenido h3{
+	font-size: 23px;
+	color: #E02222;
+	background-color: #F3F0F080;
+	border-radius: 4px;
+	height: 41px;
+	width: 220px;
+	padding-top: 9px;	
+	margin-left:auto;
+	margin-right: auto;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+}
+
+.contenido h4{
+	color: #605D5D;
+	font-size: 15px;
+	padding-top: 17px;
+	width: 200px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.contenido__version{
+	text-align: left;
+
+}
+
+.contenido h5{
+	color: #605D5D;
+	background-color: #F3F0F080;
+	border-radius: 4px;
+	margin-top: 5px;
+	height: 50px;
+	width: 180px;
+	padding: 8px;	
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.contenido button{
+	margin-top      : 20px;
+	margin-bottom   : 60px;
+	font-size       : 12px;
+	width           : 140px;
+	height          : 28px;
+	background-color: #51A5C8;
+	color           : #ffffff;
+	border-radius   : 5px;
+	cursor          : pointer;
+	border-color: none;
+	outline: none;
+}
+
+.fa-thumbs-up{
+	margin-right: 10px;
+	margin-left : -10px;
+
+}
+
+
+
+
+.footer{
+	text-align: center;
+	background-image: url(img/bg-footer.png);
+	background-position: top;
+	height: 200px;
+}
+
+.footer__left{
+	width: 60%;
+	float: left;
+	padding-left: 150px;
+}
+
+.footer_right{
+	float: right;
+	padding-right: 220px;
+}
+
+.footer__titulo{
+	font-size: 21px;
+	color: #F3EB15;
+	letter-spacing: 1px;
+	padding-top: 80px;
+	text-align: justify;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.footer__left__contenido{
+	color: #ffffffBF;
+	text-align: justify;
+	font-size: 12px;
+	width: 700px;
+	margin-top: 10px;
+}
+
+.footer_right>.footer__titulo{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.footer__right__info{
+	margin-top: 20px;
+	margin-bottom: -18px;
+	font-size: 16px;
+	color: #121010D9;
+}
+
+.fa-wordpress{
+	margin-top: 20px;
+	display: inline-block;
+}
+
+a{
+	margin: 0 10px; 
+	width: 80px; 
+	height: 80px; 
+	font-size: 20px; 	
+	color: #ffffffA6;
+	border: #5C5A5A;
+}
